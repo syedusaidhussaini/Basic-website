@@ -1,0 +1,397 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar {
+  background-color: #3B1E54;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 0 20px;
+  z-index: 1000;
+}
+
+.logo-size {
+  width: 100px;
+  height: 80px;
+  background-position: center;
+  /* margin-right: 700px; Adds left margin to logo */
+}
+
+.ologo{
+  background-image: url('dews.png');
+  background-size: cover;
+  max-width: 100px;
+  height: 70px;
+  border-radius: 50%;
+  background-position: center;
+}
+span{
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 30px;
+  color: white;
+}
+span:hover{
+  color: #FFD700;
+}
+.anchor a {
+  color: white;
+  text-decoration: none;
+  /* margin: 0 40px; */
+  font-size: 20px;
+  margin-left: 110px;
+}
+
+.anchor{
+  margin-left: 300px;
+}
+
+.anchor a:hover {
+  color: #FFD700;
+}
+
+.sec{
+  background-color: #2F4F7F;
+  height: 600px;
+  max-width: 100%;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  display: flex;
+  padding-top: 70px;
+  /* align-items: center; */
+  /* margin-bottom: 200px; */
+}
+
+h2{
+  margin-top: 40px;
+  color: white;
+}
+
+.sec p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.custom-button {
+  background-color: #3B1E54; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Button padding */
+  font-size: 20px; /* Font size */
+  font-weight: 800; /* Bold font */
+  border-radius: 6px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  height: 70px;
+  max-width: 100%;
+}
+
+/* Hover effect */
+.custom-button:hover {
+  background-color: #FFD700; /* Darker shade on hover */
+}
+
+/* Active button effect */
+.custom-button:active {
+  background-color: #2A1030; /* Even darker shade when clicked */
+  transform: scale(0.98); /* Slightly shrink button on click */
+}
+
+.button{
+  height: 80px;
+  max-width: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  margin-left: 330px;
+  margin-top: 20px;
+}
+
+.center-pic{
+  height: 300px;
+  max-width: 100%;
+}
+
+.pic{
+  background-image: url('ijuih ygtf.jpg');
+  background-size: cover;
+  height: 350px;
+  max-width: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.thi{
+  background-color: white;
+  height: 400px;
+  max-width: 100%;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  display: flex;
+  /* align-items: center; */
+  /* margin-bottom: 200px; */
+}
+
+h2{
+  margin-top: 40px;
+}
+
+.thi p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.all{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  height: 300px;
+  max-width: 100%;
+  background-color: none;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  padding-right: 30px;
+}
+
+.all p {
+  color: white;
+}
+.boxes{
+  height: 200px;
+  border-radius: 10px;
+  max-width: 300px;
+  margin-right: 5px;
+  background-color: #2F4F7F;
+  align-items: center;
+  text-align: center;
+  margin-left: 50px;
+}
+.boxes i {
+  margin-top: 5px;
+  padding-top:25px;
+  color: #3B1E54;
+  font-size: 30px;
+}
+
+.boxes i:hover {
+  color: #FFD700; 
+}
+
+
+h3{
+ margin-top: 10px;
+ color: white;
+}
+
+.w-img{
+  height: 400px;
+  max-width: 92%;
+  border-radius: 10px;
+  background-image: url('wideee.jpg');
+  background-size: cover;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.spann p{
+  font-weight: 700;
+  font-size: 30px;
+  font-family: serif;
+  margin-bottom: 20px;
+}
+
+h4{
+  font-size: 20px;
+}
+.new-heading p{
+  font-size: 30px;
+  font-weight: 600;
+}
+.head-button {
+  background-color: #3B1E54; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Button padding */
+  font-size: 20px; /* Font size */
+  font-weight: 800; /* Bold font */
+  border-radius: 6px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  height: 70px;
+  max-width: 100%;
+}
+
+.head-button:hover {
+  background-color: #FFD700; /* Darker shade on hover */
+}
+
+.head-button:active{
+  transform: scale();
+}
+
+/* Footer styling */
+.food-footer {
+  margin-top: 50px;
+  background-color: #3B1E54;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid #555;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+/* About Section */
+.footer-about {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-logo {
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+.footer-about p {
+  color: #bbb;
+}
+
+/* Navigation Links */
+.footer-nav {
+  flex: 1;
+  min-width: 150px;
+}
+
+.footer-nav h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-nav ul li {
+  margin-bottom: 8px;
+}
+
+.footer-nav ul li a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-nav ul li a:hover {
+  color: #fff;
+}
+
+/* Contact Information */
+.footer-contact {
+  flex: 1;
+  min-width: 150px;
+}
+
+.footer-contact h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.footer-contact p {
+  color: #bbb;
+  margin-bottom: 8px;
+}
+
+.footer-contact i {
+  color:  white; /* Add a touch of food-themed color */
+  margin-right: 8px;
+}
+
+/* Social Media Links */
+.footer-social {
+  flex: 1;
+  min-width: 150px;
+}
+
+.footer-social h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: #bbb;
+  font-size: 1.5em;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff6347;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+  text-align: center;
+}
+
+.newsletter h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: gray;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+  background-color:  #ff6347;
+}
+
+.footer-bottom p {
+  color: white;
+  margin-top: 15px;
+}
